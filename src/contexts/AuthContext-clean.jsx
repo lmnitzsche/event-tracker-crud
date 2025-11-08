@@ -187,7 +187,7 @@ export function AuthProvider({ children }) {
       sessionStorage.clear()
       
       // Force refresh to ensure clean state
-      window.location.href = '/Full-Stack-Event-Management-System/'
+      window.location.href = '/full-stack-event-management-system/'
       
     } catch (error) {
       // Force logout anyway
@@ -195,7 +195,7 @@ export function AuthProvider({ children }) {
       setProfile(null)
       localStorage.clear()
       sessionStorage.clear()
-      window.location.href = '/Full-Stack-Event-Management-System/'
+      window.location.href = '/full-stack-event-management-system/'
     }
   }
 
